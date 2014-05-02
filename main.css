@@ -1,93 +1,82 @@
 body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #a3b3bf;
 }
 
 .wrapper {
-	width:760px;
-	margin: 0 auto;
+	width:600px;
+	margin:0 auto;
+	background-color: #fff;
 	text-align: center;
 }
 
-.example {
-	margin: 0 auto;
-	width: 400px;
-	height: 40px;
-	background: red;
-	transition: all .5s ease-in;
-		vertical-align: middle;
-		text-align: center;
-}
-.example:hover {
-	height: 60px;
+.container	{
+	width:500px;
+	margin:0 auto;
+	padding-bottom:20px;
 }
 
+.book {
+	width:450px;
+	background-color: rgba(255,255,255,1);
+	margin:20px auto;
+	border: 5px solid orange;
+	display: block;
+}
 /**/
 /**/
-
-.chart {
-	background: orange;
-	width: 40px;
-	height: 0px;
-	display: inline-block;
-	vertical-align: top;
-	margin: 5px;
-}
-
-.example:hover .small {
-	height: 30px;
-	background: orange;
-	transition: all 1s ease;
-}
-
-.example:hover .large {
-	height: 315px;
-	background: orange;
-	transition: all 2s ease-out;
-}
-
-.example:hover .medium {
-	height: 70px;
-	background: orange;
-	transition: all 1.5s ease;
-}
-
 /**/
 /**/
-
-.button {
+.book:hover {
+	width:450px;
+}
+/**/
+/**/
+/**/
+/**/
+.example1-button {
 	width: 200px;
 	height: 42px;
-	margin:300px auto;
+	margin: 50px auto;
 	border-radius: 8px;
 	font size: 50px;
 	line-height: 33px;
 	color: #fff;
 
-	background: B7DEED;
+	background: #B7DEED;
 	text-shadow: 0px -1px 0px #98C4D5;
 	box-shadow: inset 0 -10px 0px rgb(202, 191, 191);
 
-	display: inline-block;
+	display: block;
+	position: inherit;
 	text-align: center;
 	font-family: Helvetica;
 	transition: all .1s ease;
 }
 
-.button:hover {
-	margin-top: 310px;
-	height: 32;
+.example1-button:hover {
+	margin-top: 60px;
+	height: 32px;
 	box-shadow: inset 0 -2px 0 rgb(202, 191, 191);
 	line-height: 30px;
 }
 
-.button:active {
-	margin-top: 314px;
-	height: 29;
+.example1-button:active {
+	margin-top: 63px;
+	height: 29px;
 	box-shadow: inset 0 0px 0 rgb(202, 191, 191);
 	line-height: 30px;
 }
+/**/
+/**/
+/**/
+/**/
+.example2-growing {
+	width:400px;
+	height:500px;
+	margin:50px auto;
+	font-family: helvetica;
 
-
-
-
-
-
+}
