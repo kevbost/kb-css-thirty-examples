@@ -8,6 +8,8 @@ body {
 p {
 	font-family: helvetica;
 	font-size: 16px;
+	margin: 20px;
+	text-align: left;
 }
 
 .wrapper {

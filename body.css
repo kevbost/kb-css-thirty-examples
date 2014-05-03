@@ -48,7 +48,7 @@
     height: 288px;
     background-image: url(img/spritebig.png);
     
-    -webkit-animation: play .8s steps(10) infinite;
+    -webkit-animation: play .8s steps(11) infinite;
        -moz-animation: play .8s steps(10) infinite;
         -ms-animation: play .8s steps(10) infinite;
          -o-animation: play .8s steps(10) infinite;
@@ -85,7 +85,9 @@
 			/**/
 			/**/
 
+.example3- {
 
+}
 
 
 
