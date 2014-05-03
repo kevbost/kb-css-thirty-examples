@@ -40,6 +40,9 @@
 			/**/
 			/**/
 			/**/
+			/**/
+			/**/
+			/**/
 
 .example2-sprite {
     border: 2px solid yellow;
@@ -84,21 +87,138 @@
 			/**/
 			/**/
 			/**/
+			/**/
+			/**/
+			/**/
 
-.example3- {
-
+.book-example3 {
+	width:450px;
+	height:450px;
+	margin:20px auto;
+	border: 5px solid orange;
+	position: relative;
+	display: block;
 }
 
+.example3-character {
+	float: left;
+	position: inherit;
+	left: 211px;
+	top: 30px;
+}
 
+.example3-body {
+		position: relative;
+		left: -166px;
+    -webkit-animation: breathe-body 3000ms infinite both ease-in-out;  
+    -moz-animation: breathe-body 3000ms infinite both ease-in-out;  
+}  
 
+.example3-head {
+		position: relative;  
+		top: -27px;
+		left: -250px;
+    -webkit-animation: breathe-head 3000ms infinite both ease-in-out;  
+    -moz-animation: breathe-head 3000ms infinite both ease-in-out;  
+}  
+.example3-bg {  
+	position: relative;
+	left: -122px;
+	top: -15px;
+    -webkit-animation: rotate-bg 10s infinite both ease-in-out alternate;  
+    -moz-animation: rotate-bg 10s infinite both ease-in-out alternate;  
+}  
 
+@-webkit-keyframes breathe-head {  
+  0% {  
+      -webkit-transform: rotate(1deg) translate3d(0px, 0px, 0px);
+  }  
+  40% {  
+      -webkit-transform: rotate(-3deg) translate3d(-2px, -1px, 0px);  
+  }
+  100% {  
+      -webkit-transform: rotate(1deg) translate3d(0px, 0px, 0px);  
+  }  
+}  
 
+@-webkit-keyframes breathe-body {  
+    0% {  
+        -webkit-transform: translate3d(0px,0px,0px);  
+    }  
+    40% {  
+        -webkit-transform: translate3d(0px,-3px,0px);  
+    }  
+    100% '
+    {  
+        -webkit-transform: translate3d(0px,0px,0px);  
+    }  
+}  
 
+@-webkit-keyframes rotate-bg {  
 
+    0% {  
+        -webkit-transform: translate3d(0px,0px,0px);  
+        -webkit-transform: scale(.9,.9);
+    }  
+    100% {  
+        -webkit-transform: translate3d(0px,0px,0px;  
+        	-webkit-transform: scale(1,1);
+    }  
+}  
 
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
 
+.wrapper {
+	width:600px;
+	margin:0 auto;
+	background-color: #fff;
+	text-align: center;
+}
 
+.container	{
+	width:500px;
+	margin:0 auto;
+	padding-bottom:20px;
+}
 
+.book {
+	width:450px;
+	height:100%;
+	margin:20px auto;
+	border: 5px solid orange;
+	position: relative;
+	display: block;
+}
 
+.example4 {
+	width: 200px;
+	height: 42px;
+	margin: 20px auto;
+	border-radius: 8px;
+	font size: 50px;
+	line-height: 33px;
+	color: #fff;
 
+	background: #B7DEED;
+	text-shadow: 0px -1px 0px #98C4D5;
+	box-shadow: inset 0 -10px 0px rgb(202, 191, 191);
 
+	display: block;
+	text-align: center;
+	font-family: Helvetica;
+	transition: all .1s ease;
+}
+
+.anything-please {
+	width:200px;
+	height:200px;
+	margin:20px;
+	padding:20px;
+	background-color: #000;
+}

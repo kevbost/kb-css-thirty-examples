@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>Thirty CSS Examples</title>
+	<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="body.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="wrapper">
@@ -13,9 +16,9 @@
 		<!--  -->
 		<!--  -->
 		<!--  -->
-
 		<div class="book"> <!-- <div class="overlay"></div> -->
-			<p>weee</p>
+			<h2>example 1</h2>
+			<p>This was the example we went over in class.  It is my first example.</p>
 			<div class="example1-button">
 				Press Me
 			</div>
@@ -26,6 +29,7 @@
 		<!--  -->
 
 		<div class="book">
+			<h2>example 2</h2>
 			<p>I did this to help me understand whats going on with keyframe animations.  This image is 2000px wide and has ten different "frames" of the animation repeated all the way across.  The code takes ten "steps" down the image, doing the math for me, literally shifting the image position in the background.  So, "play .8s steps(10) infinite"... if you were to change the number of steps to "steps(11)" (like is shown in the animation below) then the animation would change.  There are only ten frames on a fixed dimension image, so telling the computer that there are 11 frams then divides the pasted code into eleven parts and essentially renders the animation worthless.  I copy and pasted this code, and then destroyed it, for science.</p>
 				<div class="example2-sprite"></div>
 			<p>Sauce: <a href="http://jsfiddle.net/simurai/CGmCe/light/" target="_blank">http://jsfiddle.net/simurai/CGmCe/light/</a></p>
@@ -36,24 +40,37 @@
 		<!--  -->
 		<!--  -->
 
-		<div class="book">
-			<div class="example2-growing">
-				test
+		<div class="book-example3">
+			<h2>example 3</h2>
+			<p>Here's another time sucker upper that I basically copied, studied the code through breaking it and made it sort of my own.  (I promise, ill be creating for myself here shortly.)
+				I discovered some new-to-me translate animations, translate3d(x-axis, y-axis, z-axis) is interesting.  It was used in this animation of Bromswell on the seperate png's of his body.  The head has a slight breathing motion to it as does the body. 
+			</p>
+			<div class="example3-character">
+				<img class="example3-bg" src="img/example3-bg.png"></img>
+				<img class="example3-body" src="img/example3-body.png"></img>
+				<img class="example3-head" src="img/example3-head.png"></img>
 			</div>
+				<p>Sauce: <a href="http://samuli.hakoniemi.net/having-fun-with-css-keyframes/">http://samuli.hakoniemi.net/having-fun-with-css-keyframes/</a> </p>
 		</div>
 
 		<!--  -->
 		<!--  -->
 		<!--  -->
 
-
+		<div class="book"> <!-- <div class="overlay"></div> -->
+			<h2>example 1</h2>
+			<p>I'm thinking that this effect could be used to make an aspect of a webpage more exciting.  Like theyre looking for the information that they need, when they hover over the place it should be, the data permanently appears.</p>
+			<div class="example4">
+				Press Me
+			</div>
+			<div class="anything-please"></div>
+		</div>
 
 	<!--  -->
 	<!--  -->
 	</div>
 	</div>
 
-</div>
 </body>
 </html>
 
