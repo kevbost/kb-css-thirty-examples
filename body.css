@@ -187,67 +187,39 @@
 	width:200px;
 	height:200px;
 	margin:20px auto;
-	background-color: #1d1d1d;
+	background-color: #000;
 	transition: all 5s ease;
 }
 
 .pretty-ball {
-	margin:0 auto;
+	margin: -2px;
 	position: relative;
-	top: 50px;
+	display: inline-block;
+	top: 13px;
 	color: rgba(0,0,0, 0);
 	background: transparent;
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	border: 3px solid white;
-	border-radius: 100px;
-	-webkit-box-shadow: inset 0px 0px 10px 3px rgba(255, 255, 190, .60);
-	box-shadow: inset 0px 0px 10px 3px rgba(255, 255, 190, .60);
-
-		-webkit-animation-name: passed-level;
-	animation-name: passed-level;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-/*    animation-direction: alternate;
-    -webkit-animation-direction: alternate;*/
-    -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+	border-radius: 30px;
+	transition: background-color .5s ease,
+							border-radius 5s 10s ease,
+							box-shadow .1s ease;
 }
 
+.pretty-ball:hover {
+	box-shadow: 0px 0px 10px 3px white;
+	background-color: beige;
+}
 
-/*.pretty-ball:hover {
--webkit-box-shadow: 0px 0px 7px 2px rgba(255, 255, 190, .40);
-	box-shadow: 0px 0px 7px 2px rgba(255, 255, 190, .40);
-		-webkit-animation-name: passed-level;
-	animation-name: passed-level;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-}*/
-
-@-webkit-keyframes passed-level {
-
-	0% {
-			-webkit-box-shadow: inset 0px 0px 10px 3px rgba(255, 255, 190, .60);
-			box-shadow: inset 0px 0px 10px 3px rgba(255, 255, 190, .60);
-	}
-	100% {
-			-webkit-box-shadow: 0px 0px 7px 2px rgba(255, 255, 190, .40);
-			box-shadow: 0px 0px 7px 2px rgba(255, 255, 190, .40);
-	}
-
-
+.pretty-ball:active {
+	box-shadow: 0px 0px 15px 3px white,
+							inset 0px 0px 20px 3px white;
+	background-color: rgb(255, 255, 161);
+	border-color: yellow;
+	border-radius: 0px;
+	transition: background-color .1s ease-out;
+}
 
 
 

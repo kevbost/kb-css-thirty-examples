@@ -7,7 +7,7 @@ body {
 
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
-	margin: 20px;
+	margin: 10px;
 	padding-top:40px;
 }
 
@@ -22,7 +22,7 @@ p {
 	font-family: helvetica;
 	display: inline-block;
 	font-size: 16px;
-	margin: 20px;
+	margin: 10px;
 	text-align: left;
 }
 
