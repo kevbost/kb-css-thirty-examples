@@ -882,21 +882,92 @@ h2 {
 			/**/
 			/**/
 
-.example13-wrapper {
+.example14-wrapper {
 	margin: 20px auto;
 	text-align: center;
 }	
 
 .example14-form {
-	border:0; 
-	padding:10px; 
-	font-size:1.3em; 
-	font-family:Arial, sans-serif; 
-	color:#aaa; 
-	border:solid 1px #ccc; 
-	margin:0 0 20px; 
-	width:300px;
+margin: 10px;
+border-color: orange;
 }
+
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
+			/**/
+
+
+.example15-wrapper {
+	margin: 0 auto;
+	text-align: center;
+	height: 270px;
+}
+
+.example15-main {
+	margin: 20px auto;
+	display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  /*left: 50%;*/
+  /*top: 1em;*/
+  /*margin-left: -100px;*/
+  overflow: hidden;
+  background: #292929;
+  border: 10px solid black;
+  list-style-type: none;
+}
+
+.example15-slide {
+  position: absolute;
+  /*display: inline;*/
+  /*left: 115px;*/
+  background: #292929;
+  color: #e3e3e3;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font: 2em sans-serif;
+  /*border-box: box-sizing;*/
+  padding-top: 40px;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes slideIn{
+  0% {left: -300px;}
+  100%{left: 300px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
