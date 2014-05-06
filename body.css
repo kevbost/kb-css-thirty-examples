@@ -1591,5 +1591,5 @@ input[type=checkbox]:checked + label {
 	}
 	100% {
 		-webkit-transform: translate(0,-200px);
-	}
+	}`
 }
